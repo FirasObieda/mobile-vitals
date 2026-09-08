@@ -126,8 +126,3 @@ including the design evolution from the SDP1 proposal (dual PPG sensors → sing
 MAX30105; BME280 → MLX90614; Wi-Fi → Bluetooth for the wearable link; breadboard →
 custom PCB).
 
-## Notes
-- Trained model files (`.pkl`, `.h5`) are committed directly for convenience; consider
-  [Git LFS](https://git-lfs.com/) if the repo grows further.
-- `hardware/` includes a few PCB design iterations from development — prune to the
-  final revision if you want a cleaner history.
