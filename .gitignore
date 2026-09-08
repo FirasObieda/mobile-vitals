@@ -1,0 +1,21 @@
+# --- Python ---
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# --- Secrets ---
+# Firebase / Google service account keys (never commit these)
+*firebase-adminsdk*.json
+*serviceAccount*.json
+.env
+
+# --- Editor / OS junk ---
+tempCodeRunnerFile.*
+.DS_Store
+Thumbs.db
+
+# --- KiCad backups/locks (optional, uncomment if noisy) ---
+# *-bak
+# *.kicad_pcb-bak
+# fp-info-cache
