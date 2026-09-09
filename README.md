@@ -30,7 +30,7 @@ a companion mobile app when a reading falls outside a normal range.
 5. Predictions are written back to Firestore and shown live in the app; abnormal
    readings trigger a two-tier (yellow/red) alert.
 
-![Assembled wearable device](assets/images/highlevelview.png)
+![High level view](Images/highlevelview.png)
 
 ## Repository structure
 
@@ -55,7 +55,7 @@ hardware/     KiCad PCB design files for the wearable
 | Power | 3.7V 800mAh Li-Po + TP4056 charger | Portable power + USB charging |
 | Enclosure | Custom 3D-printed casing (Onshape) | Protection & wearability |
 
-![Assembled wearable device](assets/images/schematic.png)
+![Hardware Schematic](Images/schematic.png)
 
 Communication between sensors uses I²C/SPI on the wearable; wearable↔phone is
 Bluetooth; phone↔cloud is Wi-Fi.
@@ -130,3 +130,6 @@ including the design evolution from the SDP1 proposal (dual PPG sensors → sing
 MAX30105; BME280 → MLX90614; Wi-Fi → Bluetooth for the wearable link; breadboard →
 custom PCB).
 
+
+
+![Final Design](Images/finalDesign.png)
