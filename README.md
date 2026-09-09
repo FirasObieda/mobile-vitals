@@ -30,6 +30,8 @@ a companion mobile app when a reading falls outside a normal range.
 5. Predictions are written back to Firestore and shown live in the app; abnormal
    readings trigger a two-tier (yellow/red) alert.
 
+![Assembled wearable device](assets/images/highlevelview.png)
+
 ## Repository structure
 
 ```
@@ -52,6 +54,8 @@ hardware/     KiCad PCB design files for the wearable
 | Display | Waveshare 1.69" LCD | Shows HR, SpO₂, temperature, BP |
 | Power | 3.7V 800mAh Li-Po + TP4056 charger | Portable power + USB charging |
 | Enclosure | Custom 3D-printed casing (Onshape) | Protection & wearability |
+
+![Assembled wearable device](assets/images/schematic.png)
 
 Communication between sensors uses I²C/SPI on the wearable; wearable↔phone is
 Bluetooth; phone↔cloud is Wi-Fi.
